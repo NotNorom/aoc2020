@@ -10,6 +10,7 @@ pub mod day07;
 pub mod day08;
 pub mod day09;
 pub mod day10;
+pub mod day11;
 pub fn read_stream_and_reset<T: Read + Seek>(data: &mut T) -> String {
     let mut buffer = String::new();
     data.read_to_string(&mut buffer).unwrap();
